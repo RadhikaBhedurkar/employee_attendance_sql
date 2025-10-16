@@ -2,7 +2,7 @@
 
 Employee Attendance Management System (SQL Project)
 
-##  Overview
+# Overview
 
 The **Employee Attendance Management System** helps companies monitor:
 - Daily attendance of employees  
@@ -10,7 +10,7 @@ The **Employee Attendance Management System** helps companies monitor:
 - Leave records  
 - Department-wise attendance statistics
 
-  ##  ER Diagram
+# ER Diagram
 
 Department (dept_id, dept_name)
 │
@@ -19,7 +19,7 @@ Department (dept_id, dept_name)
 ├──< Attendance (attendance_id, emp_id, attendance_date, check_in, check_out, total_hours, status)
 └──< LeaveRecord (leave_id, emp_id, leave_type, start_date, end_date, reason)
 
-## Concepts Used
+# Concepts Used
 
 1.SQL Joins (INNER, LEFT)
 
