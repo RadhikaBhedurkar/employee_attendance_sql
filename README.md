@@ -13,9 +13,7 @@ The **Employee Attendance Management System** helps companies monitor:
 # ER Diagram
 
 Department (dept_id, dept_name)
-│
 └──< Employee (emp_id, emp_name, gender, dob, hire_date, dept_id, email, phone)
-│
 ├──< Attendance (attendance_id, emp_id, attendance_date, check_in, check_out, total_hours, status)
 └──< LeaveRecord (leave_id, emp_id, leave_type, start_date, end_date, reason)
 
